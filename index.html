@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Added link to the jQuery Library -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    
+    <title>GamesCollector</title>
+</head>
+<body>
+
+<header id="CrystalsCollector">
+    <h1>GamesCollector!</h1>
+</header>
+
+<div id="instructions">
+   <p>
+    You will be given a random number at the start of the game.
+   </p> <br>
+    There are four crystals below. By clicking on a crystal you
+    will add a specific amount of points to your total score.
+    </p> <br>
+    You win the game by matching your total score to random
+    number, you lose the game if your total number goes above
+    the random number.
+    <p> <br>
+    The value of each crystal is hidden from you until you
+    click on it.
+    </p>
+    <p> <br>
+    Each time when the game starts, the game will change the 
+    value of each crystals.
+   </p> 
+</div>
+
+
+<div id="container">
+    <div id="score">39</div>
+</div>
+
+<div id="container2">
+    <div id="wins">wins: 0</div>
+    <div id="losses">losses: 0</div>
+</div>
+
+<div id="game-img">
+<span>
+   <button id="sNT"><img src="assets/images/jason-leung-770944-unsplash.jpg"></button>
+</span>
+
+<span>
+   <button id="yellowGB"> <img src="assets/images/mike-meyers-737491-unsplash.jpg"></button>
+</span>
+
+<span>
+    <button id="purpleGB"><img src="assets/images/mike-meyers-737492-unsplash.jpg"></button>
+</span>
+
+<span>
+   <button id="blueGB"><img src="assets/images/mike-meyers-737494-unsplash.jpg"></button>
+</span>
+</div>
+
+<div id="smallBox">
+    <p>Your total score is:</p>
+</div>
+
+<div id="container3">
+    <div id="yourScore">0</div>
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

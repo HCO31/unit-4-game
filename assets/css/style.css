@@ -1,0 +1,87 @@
+body{
+    background-color: #87ceeb;
+}
+
+
+
+
+#CrystalsCollector{
+    margin: 10px;
+    width: 290px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    background-color: #FF8C00;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+
+#instructions{
+    margin: 10px;
+    width: 350px;
+    font-size: 18px;
+    height: 400px;
+    color: #006400;
+    background-color: #f5deb3;
+    font-family: sans-serif;
+}
+
+#container{
+    margin: 10px;
+    font-size: 36px;
+
+    width: 350px;
+    height: 150px;
+    color: #800080;
+    background-color: #ADFF2F;
+    float: left;
+}
+
+#container2{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #B0E0E6;
+    text-align: center;
+    display: inline-block;
+}
+
+#wins{
+    padding-top: 40px;
+}
+
+#losses{
+    padding-top: 10px;
+}
+
+
+#game-img{
+    margin: 10px;
+    width: 912px;
+    height: 200px;
+}
+
+img{
+    width: 200px;
+    height: 200px; 
+}
+
+#smallBox{
+    margin: 10px;
+    width: 350px;
+    color: #ffffff;
+    background-color: #20b2aa;
+    height: 20px;
+}
+
+#container3{
+    margin: 10px;
+    width: 350px;
+    height: 150px;
+    color: #ffffff;
+    background-color: #20b2aa;
+    font-size: 36px;
+}
+
